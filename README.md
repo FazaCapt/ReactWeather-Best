@@ -20,3 +20,8 @@ Instal:
 
 1. Before BoilerPlate
 2. npm install --save react-router 'https://www.npmjs.com/package/react-router'
+
+Kesimpulan Masalah:
+1. Masih ditemukan beberapa Npm yang harus mengikuti versi video
+2. Return Harus memakai Div. Jangan Lupa!
+3. inget main.jsx tempatnya kumpulnya para komponen
