@@ -39,3 +39,7 @@ About Weather.org:
 1. API Key: 'https://home.openweathermap.org/api_keys'
 2. API ID: '526f3bdf694a57da1de2bbefe4692432'
 3. Cara: 'http://samples.openweathermap.org/data/2.5/find?q=London&units=imperial&appid=526f3bdf694a57da1de2bbefe4692432'
+
+Advanced debuging:
+
+1. Debugger;
