@@ -21,7 +21,18 @@ Instal:
 1. Before BoilerPlate
 2. npm install --save react-router 'https://www.npmjs.com/package/react-router'
 
+Documentation:
+
+1. API Weather: 'https://openweathermap.org/api'
+2. Json Editor Online : 'http://www.jsoneditoronline.org/'
+
 Kesimpulan Masalah:
 1. Masih ditemukan beberapa Npm yang harus mengikuti versi video
 2. Return Harus memakai Div. Jangan Lupa!
 3. inget main.jsx tempatnya kumpulnya para komponen
+
+About Weather.org:
+
+1. API Key: 'https://home.openweathermap.org/api_keys'
+2. API ID: '526f3bdf694a57da1de2bbefe4692432'
+3. Cara: 'http://samples.openweathermap.org/data/2.5/find?q=London&units=imperial&appid=526f3bdf694a57da1de2bbefe4692432'
