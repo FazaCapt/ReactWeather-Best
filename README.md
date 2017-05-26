@@ -43,3 +43,21 @@ About Weather.org:
 Advanced debuging:
 
 1. Debugger;
+
+ Deploying Your App To Production
+
+1. Intro: Tools You'll Use 1:33
+    - git
+    - gitHub
+    - Heroku
+2. Installing Git 3:33
+    - git --version
+    - website resmi git 'https://git-scm.com/'
+3. Adding Git To Your App 11:00
+4. Joining GitHub & Generating SSH Keys 11:00
+5. Pushing To GitHub 7:30
+6. Heroku Signup & Toolbelt 5:04
+7. Deploying Your App 11:05
+    - buat script start 'node server.js' di package.json
+8. Fixing localhost 4:05
+9. Feature Workflow 
