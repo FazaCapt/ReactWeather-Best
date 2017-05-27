@@ -11,7 +11,7 @@ require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
 // App Css
-require('style!css!applicationStyles'); //ini cara untuk menambahkan style css
+require('style!css!sass!applicationStyles'); //ini cara untuk menambahkan style css
 
 ReactDOM.render(
         <Router history = {hashHistory}>

@@ -21,11 +21,19 @@ Instal:
 1. Before BoilerPlate
 2. npm install --save react-router 'https://www.npmjs.com/package/react-router'
 3. npm install axios --save 'https://www.npmjs.com/package/axios'
+4. css-loader@0.23.1
+5. script-loader@0.6.1
+6. style-loader@0.13.0
+7. jquery@2.2.1
+8. foundation-sites@6.2.0
+9. sass-loader@3.1.2  --save-dev
+10. node-sass@3.4.2
 
 Documentation:
 
 1. API Weather: 'https://openweathermap.org/api'
 2. Json Editor Online : 'http://www.jsoneditoronline.org/'
+3. SASS : 'http://sass-lang.com/guide'
 
 Kesimpulan Masalah:
 1. Masih ditemukan beberapa Npm yang harus mengikuti versi video
@@ -67,11 +75,7 @@ Advanced debuging:
 1. Intro: Foundation 2:03 
     - official website: 'http://foundation.zurb.com/sites/docs/'
 2. Installing Foundation 12:37
-    - css-loader@0.23.1
-    - script-loader@0.6.1
-    - style-loader@0.13.0
-    - jquery@2.2.1
-    - foundation-sites@6.2.0
+    - 
 3. Styling Navigation 14:36
 4. Styling Examples Page 12:06
 5. Styling About Page 5:59
