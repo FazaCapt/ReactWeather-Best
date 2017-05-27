@@ -1,21 +1,23 @@
 var React = require('react');
 var WeatherForm = require('WeatherForm');
 var WeatherMessage = require('WeatherMessage');
+var ErrorModal = require('ErrorModal');
 var openWeatherMap = require('openWeatherMap');
 
 var Weather = React.createClass({
     getInitialState: function(){
         return{
             isLoading: false
-            // location: 'Jakarta',
-            // temp: 34
         }
     },
 
     handleSearch : function(location){
         var that = this;
         
-        this.setState({isLoading: true});
+        this.setState({
+            isLoading: true,
+            errorMessage: undefined
+    });
 
         openWeatherMap.getTemp(location).then(function(temp){
             that.setState({
@@ -23,14 +25,17 @@ var Weather = React.createClass({
                 temp: temp,
                 isLoading: false
             })
-        },function(errorMessage){
-            this.setState({isLoading: false});
-            alert(errorMessage);
-        })
+        },function(e){
+            that.setState({ //seharusnya that tadi malah this
+                isLoading: false,
+                errorMessage: e.message
+            });
+            // alert(errorMessage);
+        });
     },
 
     render: function(){
-        var {isLoading, temp, location} = this.state;
+        var {isLoading, temp, location, errorMessage} = this.state;
 
         function renderMesage(){
             if(isLoading){
@@ -39,13 +44,20 @@ var Weather = React.createClass({
                 return <WeatherMessage temp={temp} location={location}/>
             }
         }
+
+        function renderError(){
+            if(typeof errorMessage === 'string'){
+                return (
+                    <ErrorModal message={errorMessage}/> //Lupa tanda kurung kurawal
+                )
+            }
+        }
         return(
             <div> 
                 <h1 className="text-center">Get Weather</h1>
                 <WeatherForm onSearch = {this.handleSearch} />
                 {renderMesage()}
-                {/*<WeatherMessage temp={temp} location={location}/>*/}
-
+                {renderError()}
             </div>
         )
     }
