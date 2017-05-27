@@ -10,6 +10,9 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+// App Css
+require('style!css!applicationStyles'); //ini cara untuk menambahkan style css
+
 ReactDOM.render(
         <Router history = {hashHistory}>
                 <Route path="/" component={Main}>
