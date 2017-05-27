@@ -61,3 +61,25 @@ Advanced debuging:
     - buat script start 'node server.js' di package.json
 8. Fixing localhost 4:05
 9. Feature Workflow 
+
+ Styling Your App With Foundation
+
+1. Intro: Foundation 2:03 
+    - official website: 'http://foundation.zurb.com/sites/docs/'
+2. Installing Foundation 12:37
+    - css-loader@0.23.1
+    - script-loader@0.6.1
+    - style-loader@0.13.0
+    - jquery@2.2.1
+    - foundation-sites@6.2.0
+3. Styling Navigation 14:36
+4. Styling Examples Page 12:06
+5. Styling About Page 5:59
+6. Styling Weather Page 6:42
+7. Adding A Modal For Errors (Part 1) 16:32
+8. Adding A Modal For Errors (Part 2) 13:14
+9. Adding Custom CSS 12:12
+10. Setting Up SCSS 10:10
+11. Linking To Location & Wiring Up Nav Form 17:12
+12. Fixing The Error Modal 7:45
+13. Updating Our Boilerplate 
